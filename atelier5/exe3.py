@@ -12,6 +12,7 @@ class Rectangle:
   #methode d'affichage
   def affichage(self):
     print('un(e)',self.nom,'de longeur:',self.longueur,'m et du largeur:',self.largeur,'m')
+    #Dessiner le rectangle avec des etoiles
     for a in range(0,self.largeur,1):
        for b in range(0,self.longueur,1):
           print("*",end=" ")
